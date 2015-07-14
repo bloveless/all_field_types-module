@@ -1,4 +1,4 @@
-<?php namespace Control4\TestsModule\Test\Table;
+<?php namespace Control4\AllFieldTypesModule\Test\Table;
 
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 
@@ -8,7 +8,7 @@ use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
  * @link          http://www.control4.com
  * @author        Control4 <bloveless@control4.com>
  * @author        Brennon Loveless <bloveless@control4.com>
- * @package       Control4\TestsModule\Test\Table
+ * @package       Control4\AllFieldTypesModule\Test\Table
  */
 class TestTableBuilder extends TableBuilder
 {

@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Anomaly\Streams\Platform\Database\Migration\Migration;
 
-class Control4ModuleTestsCreateTestsStream extends Migration
+class Control4ModuleAllFieldTypesCreateTestsStream extends Migration
 {
     /**
      * The stream definition.

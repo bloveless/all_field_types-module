@@ -1,10 +1,10 @@
 {
-  "name": "bloveless/tests-module",
+  "name": "bloveless/all_field_types-module",
   "type": "library",
 
   "autoload": {
     "psr-4": {
-      "Control4\\TestsModule\\": "src/"
+      "Control4\\AllFieldTypesModule\\": "src/"
     }
   }
 }

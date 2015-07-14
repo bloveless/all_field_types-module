@@ -1,18 +1,18 @@
-<?php namespace Control4\TestsModule\Http\Controller\Admin;
+<?php namespace Control4\AllFieldTypesModule\Http\Controller\Admin;
 
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
-use Control4\TestsModule\Test\Table\TestTableBuilder;
-use Control4\TestsModule\Test\Form\TestFormBuilder;
+use Control4\AllFieldTypesModule\Test\Table\TestTableBuilder;
+use Control4\AllFieldTypesModule\Test\Form\TestFormBuilder;
 
 /**
- * Class TestsController
+ * Class AllFieldTypesController
  *
  * @link          http://www.control4.com
  * @author        Control4 <bloveless@control4.com>
  * @author        Brennon Loveless <bloveless@control4.com>
- * @package       Control4\TestsModule\Http\Controller\Admin
+ * @package       Control4\AllFieldTypesModule\Http\Controller\Admin
  */
-class TestsController extends AdminController
+class AllFieldTypesController extends AdminController
 {
 
     public function index(TestTableBuilder $table)

@@ -1,6 +1,6 @@
-<?php namespace Control4\TestsModule\Test;
+<?php namespace Control4\AllFieldTypesModule\Test;
 
-use Anomaly\Streams\Platform\Model\Tests\TestsTestEntryModel;
+use Anomaly\Streams\Platform\Model\AllFieldTypes\AllFieldTypesTestEntryModel;
 
 /**
  * Class TestModel
@@ -8,9 +8,9 @@ use Anomaly\Streams\Platform\Model\Tests\TestsTestEntryModel;
  * @link          http://www.control4.com
  * @author        Control4 <bloveless@control4.com>
  * @author        Brennon Loveless <bloveless@control4.com>
- * @package       Control4\TestsModule\Test
+ * @package       Control4\AllFieldTypesModule\Test
  */
-class TestModel extends TestsTestEntryModel
+class TestModel extends AllFieldTypesTestEntryModel
 {
 
 }

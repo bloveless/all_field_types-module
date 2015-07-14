@@ -1,16 +1,16 @@
-<?php namespace Control4\TestsModule;
+<?php namespace Control4\AllFieldTypesModule;
 
 use Anomaly\Streams\Platform\Addon\Module\Module;
 
 /**
- * Class TestsModule
+ * Class AllFieldTypesModule
  *
  * @link          http://www.control4.com
  * @author        Control4 <bloveless@control4.com>
  * @author        Brennon Loveless <bloveless@control4.com>
- * @package       Control4\TestsModule
+ * @package       Control4\AllFieldTypesModule
  */
-class TestsModule extends Module
+class AllFieldTypesModule extends Module
 {
     /**
      * The module icon.
