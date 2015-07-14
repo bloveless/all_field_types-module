@@ -19,4 +19,31 @@ return [
     'colorpicker' => [
         'name' => 'Colorpicker'
     ],
+    'country' => [
+        'name' => 'Country'
+    ],
+    'datetime' => [
+        'name' => 'Datetime'
+    ],
+    'date' => [
+        'name' => 'Date'
+    ],
+    'time' => [
+        'name' => 'Time'
+    ],
+    'decimal' => [
+        'name' => 'Decimal'
+    ],
+    'editor' => [
+        'name' => 'Editor'
+    ],
+    'email' => [
+        'name' => 'Email'
+    ],
+    'encrypted' => [
+        'name' => 'Encrypted'
+    ],
+    'file' => [
+        'name' => 'File'
+    ]
 ];

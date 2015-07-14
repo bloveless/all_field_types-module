@@ -41,6 +41,24 @@ class Control4ModuleTestsCreateTestsStream extends Migration
         ],
         'country' => [
             'placeholder' => 'Country Placeholder'
+        ],
+        'datetime',
+        'date',
+        'time',
+        'decimal' => [
+            'placeholder' => 'Decimal Placeholder'
+        ],
+        'editor' => [
+            'placeholder' => 'Editor Placeholder'
+        ],
+        'email' => [
+            'placeholder' => 'Email Placeholder'
+        ],
+        'encrypted' => [
+            'placeholder' => 'Encrypted Placeholder'
+        ],
+        'file' => [
+            'placeholder' => 'File Placeholder'
         ]
     ];
 }

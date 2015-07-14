@@ -12,17 +12,17 @@ class Control4ModuleTestsCreateTestsFields extends Migration
      */
     protected $fields = [
         'text'        => [
-            'type'        => 'anomaly.field_type.text',
+            'type' => 'anomaly.field_type.text',
         ],
         'slug'        => [
-            'type'        => 'anomaly.field_type.slug',
-            'config'      => [
+            'type'   => 'anomaly.field_type.slug',
+            'config' => [
                 'slugify' => 'text',
                 'type'    => '_'
             ]
         ],
         'addon'       => [
-            'type'        => 'anomaly.field_type.addon',
+            'type' => 'anomaly.field_type.addon',
         ],
         'boolean'     => [
             'type'   => 'anomaly.field_type.boolean',
@@ -37,15 +37,59 @@ class Control4ModuleTestsCreateTestsFields extends Migration
         'checkboxes'  => [
             'type'   => 'anomaly.field_type.checkboxes',
             'config' => [
-                'default_value' => '1',
                 'options' => "1:test 1\n2:test 2\n3:test 3"
             ]
         ],
         'colorpicker' => [
-            'type'        => 'anomaly.field_type.colorpicker',
+            'type' => 'anomaly.field_type.colorpicker',
         ],
         'country'     => [
-            'type'        => 'anomaly.field_type.country',
+            'type' => 'anomaly.field_type.country',
+        ],
+        'datetime'    => [
+            'type' => 'anomaly.field_type.datetime'
+        ],
+        'date'        => [
+            'type'   => 'anomaly.field_type.datetime',
+            'config' => [
+                'mode' => 'date'
+            ]
+        ],
+        'time'        => [
+            'type'   => 'anomaly.field_type.datetime',
+            'config' => [
+                'mode' => 'time'
+            ]
+        ],
+        'decimal'     => [
+            'type'   => 'anomaly.field_type.decimal',
+            'config' => [
+                'separator' => ',',
+                'point'     => '.',
+                'decimals'  => 3,
+                'min'       => 0
+            ]
+        ],
+        'editor'      => [
+            'type'   => 'anomaly.field_type.editor',
+            'config' => [
+                'theme'  => 'monokai',
+                'mode'   => 'html',
+                'height' => 500
+            ]
+        ],
+        'email' => [
+            'type' => 'anomaly.field_type.email',
+        ],
+        'encrypted' => [
+            'type' => 'anomaly.field_type.encrypted',
+        ],
+        'file' => [
+            'type' => 'anomaly.field_type.file',
+            'config' => [
+                'disk' => 'local',
+                'path' => 'tests-module'
+            ]
         ]
     ];
 }
