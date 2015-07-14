@@ -1,0 +1,10 @@
+{
+  "name": "bloveless/tests-module",
+  "type": "library",
+
+  "autoload": {
+    "psr-4": {
+      "Control4\\TestsModule\\": "src/"
+    }
+  }
+}
