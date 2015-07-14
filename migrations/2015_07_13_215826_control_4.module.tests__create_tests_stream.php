@@ -24,6 +24,9 @@ class Control4ModuleTestsCreateTestsStream extends Migration
         'text' => ['required' => true, 'unique' => true],
         'slug' => ['required' => true, 'unique' => true],
         'addon',
-        'boolean'
+        'boolean',
+        'checkboxes',
+        'colorpicker',
+        'country'
     ];
 }

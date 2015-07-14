@@ -11,29 +11,45 @@ class Control4ModuleTestsCreateTestsFields extends Migration
      * @var array
      */
     protected $fields = [
-        'text'  => [
-            'type'   => 'anomaly.field_type.text',
-            'config' => [
-                'placeholder' => 'Text Placeholder Test'
-            ]
+        'text'        => [
+            'type'        => 'anomaly.field_type.text',
+            'placeholder' => 'Text Placeholder'
         ],
-        'slug'  => [
-            'type'   => 'anomaly.field_type.slug',
-            'config' => [
+        'slug'        => [
+            'type'        => 'anomaly.field_type.slug',
+            'placeholder' => 'Text Slug Placeholder',
+            'config'      => [
                 'slugify' => 'text',
-                'type' => '_'
+                'type'    => '_'
             ]
         ],
-        'addon' => 'anomaly.field_type.addon',
-        'boolean' => [
-            'type' => 'anomaly.field_type.boolean',
+        'addon'       => [
+            'type'        => 'anomaly.field_type.addon',
+            'placeholder' => 'Addon placeholder'
+        ],
+        'boolean'     => [
+            'type'   => 'anomaly.field_type.boolean',
             'config' => [
                 'default_value' => false,
-                'on_color'      => 'success',
-                'off_color'     => 'default',
+                'on_color'      => 'danger',
+                'off_color'     => 'info',
                 'on_text'       => 'anomaly.field_type.boolean::choice.yes',
                 'off_text'      => 'anomaly.field_type.boolean::choice.no'
             ]
         ],
+        'checkboxes'  => [
+            'type'   => 'anomaly.field_type.checkboxes',
+            'config' => [
+                'default_value' => '1',
+                'options' => "1:test 1\n2:test 2\n3:test 3"
+            ]
+        ],
+        'colorpicker' => [
+            'type'        => 'anomaly.field_type.colorpicker',
+            'placeholder' => '#000000'
+        ],
+        'country'     => [
+            'type'        => 'anomaly.field_type.country',
+        ]
     ];
 }
