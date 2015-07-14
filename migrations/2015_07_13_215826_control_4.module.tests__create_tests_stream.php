@@ -21,44 +21,84 @@ class Control4ModuleTestsCreateTestsStream extends Migration
      * @var array
      */
     protected $assignments = [
-        'text'  => [
+        'text'         => [
             'required'    => true,
             'unique'      => true,
             'placeholder' => 'Text Placeholder'
         ],
-        'slug'  => [
+        'slug'         => [
             'required'    => true,
             'unique'      => true,
             'placeholder' => 'Slug Placeholder'
         ],
-        'addon' => [
+        'addon'        => [
             'placeholder' => 'Addon Placeholder'
         ],
         'boolean',
         'checkboxes',
-        'colorpicker' => [
+        'colorpicker'  => [
             'placeholder' => 'Colorpicker Placeholder'
         ],
-        'country' => [
+        'country'      => [
             'placeholder' => 'Country Placeholder'
         ],
-        'datetime',
-        'date',
-        'time',
-        'decimal' => [
+        // 'datetime',
+        // 'date',
+        // 'time',
+        'decimal'      => [
             'placeholder' => 'Decimal Placeholder'
         ],
-        'editor' => [
+        'editor'       => [
             'placeholder' => 'Editor Placeholder'
         ],
-        'email' => [
+        'email'        => [
             'placeholder' => 'Email Placeholder'
         ],
-        'encrypted' => [
+        'encrypted'    => [
             'placeholder' => 'Encrypted Placeholder'
         ],
-        'file' => [
+        'file'         => [
             'placeholder' => 'File Placeholder'
+        ],
+        // 'files',
+        'integer'      => [
+            'placeholder' => 'Integer Placeholder'
+        ],
+        'language'     => [
+            'placeholder' => 'Language Placeholder'
+        ],
+        'markdown'     => [
+            'placeholder' => 'Markdown Placeholder'
+        ],
+        'multiple'     => [
+            'placeholder' => 'Multiple Placeholder'
+        ],
+        'relationship' => [
+            'placeholder' => 'Relationship Placeholder'
+        ],
+        'select'       => [
+            'placeholder' => 'Select Placeholder'
+        ],
+        'slider'       => [
+            'placeholder' => 'Slider Placeholder'
+        ],
+        'state'        => [
+            'placeholder' => 'State Placeholder'
+        ],
+        'tags'         => [
+            'placeholder' => 'Tags Placeholder'
+        ],
+        'textarea' => [
+            'placeholder' => 'Textarea placeholder'
+        ],
+        'url' => [
+            'placeholder' => 'Url Placeholder'
+        ],
+        'user' => [
+            'placeholder' => 'User Placeholder'
+        ],
+        'wysiwyg' => [
+            'placeholder' => 'WYSIWYG Placeholder'
         ]
     ];
 }

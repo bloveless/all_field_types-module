@@ -45,5 +45,47 @@ return [
     ],
     'file' => [
         'name' => 'File'
+    ],
+    'files' => [
+        'name' => 'Files'
+    ],
+    'integer' => [
+        'name' => 'Integer'
+    ],
+    'language' => [
+        'name' => 'Language'
+    ],
+    'markdown' => [
+        'name' => 'Markdown'
+    ],
+    'multiple' => [
+        'name' => 'Multiple'
+    ],
+    'relationship' => [
+        'name' => 'Relationship'
+    ],
+    'select' => [
+        'name' => 'Select'
+    ],
+    'slider' => [
+        'name' => 'Slider'
+    ],
+    'state' => [
+        'name' => 'State'
+    ],
+    'tags' => [
+        'name' => 'Tags'
+    ],
+    'textarea' => [
+        'name' => 'Textarea'
+    ],
+    'url' => [
+        'name' => 'Url'
+    ],
+    'user' => [
+        'name' => 'User'
+    ],
+    'wysiwyg' => [
+        'name' => 'WYSIWYG'
     ]
 ];
