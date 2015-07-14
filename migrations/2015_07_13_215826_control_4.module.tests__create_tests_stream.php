@@ -21,12 +21,26 @@ class Control4ModuleTestsCreateTestsStream extends Migration
      * @var array
      */
     protected $assignments = [
-        'text' => ['required' => true, 'unique' => true],
-        'slug' => ['required' => true, 'unique' => true],
-        'addon',
+        'text'  => [
+            'required'    => true,
+            'unique'      => true,
+            'placeholder' => 'Text Placeholder'
+        ],
+        'slug'  => [
+            'required'    => true,
+            'unique'      => true,
+            'placeholder' => 'Slug Placeholder'
+        ],
+        'addon' => [
+            'placeholder' => 'Addon Placeholder'
+        ],
         'boolean',
         'checkboxes',
-        'colorpicker',
-        'country'
+        'colorpicker' => [
+            'placeholder' => 'Colorpicker Placeholder'
+        ],
+        'country' => [
+            'placeholder' => 'Country Placeholder'
+        ]
     ];
 }

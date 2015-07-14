@@ -13,11 +13,9 @@ class Control4ModuleTestsCreateTestsFields extends Migration
     protected $fields = [
         'text'        => [
             'type'        => 'anomaly.field_type.text',
-            'placeholder' => 'Text Placeholder'
         ],
         'slug'        => [
             'type'        => 'anomaly.field_type.slug',
-            'placeholder' => 'Text Slug Placeholder',
             'config'      => [
                 'slugify' => 'text',
                 'type'    => '_'
@@ -25,7 +23,6 @@ class Control4ModuleTestsCreateTestsFields extends Migration
         ],
         'addon'       => [
             'type'        => 'anomaly.field_type.addon',
-            'placeholder' => 'Addon placeholder'
         ],
         'boolean'     => [
             'type'   => 'anomaly.field_type.boolean',
@@ -46,7 +43,6 @@ class Control4ModuleTestsCreateTestsFields extends Migration
         ],
         'colorpicker' => [
             'type'        => 'anomaly.field_type.colorpicker',
-            'placeholder' => '#000000'
         ],
         'country'     => [
             'type'        => 'anomaly.field_type.country',
